@@ -1,0 +1,7 @@
+name = "DistributionSamplers"
+uuid = "98561cd5-8c26-42a0-a4bf-febe7866e2b1"
+authors = ["Šimon Soldát"]
+version = "0.1.0"
+
+[compat]
+julia = "1.10"
