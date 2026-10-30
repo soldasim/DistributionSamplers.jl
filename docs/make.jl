@@ -5,6 +5,7 @@ DocMeta.setdocmeta!(DistributionSamplers, :DocTestSetup, :(using DistributionSam
 
 makedocs(;
     modules=[DistributionSamplers],
+    checkdocs=:exports,
     authors="Šimon Soldát",
     sitename="DistributionSamplers.jl",
     format=Documenter.HTML(;
